@@ -77,8 +77,6 @@ public class Startup extends BroadcastReceiver {
         mHBM = false;
         restore(SingleTapSwitch.getFile(), enabled);
         }
-
-        Utils.enableService(context);
     }
 
     private void restore(String file, boolean enabled) {
