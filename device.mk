@@ -530,3 +530,6 @@ PRODUCT_BOOT_JARS += \
     WfdCommon
 
 #$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
+
+# simon
+TARGET_HAS_FOD := true
